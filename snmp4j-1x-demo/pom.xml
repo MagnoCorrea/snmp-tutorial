@@ -33,7 +33,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <jdk.version>1.6</jdk.version>
-        <snmp4j.version>1.11.5</snmp4j.version>
+        <snmp4j.version>1.10.1</snmp4j.version>
         <junit.version>4.10</junit.version>
     </properties>
 
@@ -52,16 +52,4 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>oosnmp</id>
-            <name>oosnmp</name>
-            <layout>default</layout>
-            <url>https://oosnmp.net/dist/release/</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 </project>
